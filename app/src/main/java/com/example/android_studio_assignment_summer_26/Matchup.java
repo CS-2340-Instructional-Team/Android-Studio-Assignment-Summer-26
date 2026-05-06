@@ -5,8 +5,8 @@ package com.example.android_studio_assignment_summer_26;
  */
 public class Matchup
 {
-    private final String[] foodNames;   // display names of the two competing foods
-    private final int[]    foodIndices; // their positions in the master FOODS array
+    private final String[] foodNames;    
+    private final int[]    foodIndices;  
 
     public Matchup(String foodNameA, String foodNameB,
                    int foodIndexA, int foodIndexB)

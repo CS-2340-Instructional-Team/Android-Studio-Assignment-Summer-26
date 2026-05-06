@@ -53,12 +53,12 @@ public class BracketActivity extends AppCompatActivity
 
         // TODO 1:
         // Initialize bracketManager using the singleton.
-        // Look at how getInstance() works in BracketManagerSingleton
-        // and think about what bracketManager should point to.
+        // bracketManager should point to the shared BracketManagerSingleton instance.
+        // HINT: You should NOT use 'new' here.
         bracketManager = null;
 
         // TODO 3:
-        // Hook up btnReset the same way the other buttons are initialized above.
+        // Find btnReset from the layout using its id.
         // Note: activity_bracket.xml has TODO 7 that creates this button.
         btnReset = null;
 
